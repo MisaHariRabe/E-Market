@@ -1,0 +1,732 @@
+@media only screen and (min-width: 1200px) {
+    h1 {
+        /* padding-top: 20px; */
+        margin-left: 10px;
+        font-size: 72pt;
+    }
+
+    #bigLogo {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+    }
+
+    #searchBar form {
+        display: block;
+        margin-top: 20px;
+    }
+
+    #MenuVrOpener {
+        display: none;
+    }
+
+    #MenuVr h2 {
+        font-size: 27px;
+    }
+
+    #MenuVrGal {
+        background-color: transparent;
+        margin-top: 3px;
+    }
+    
+    #MenuVrGal ul {
+        list-style-type: none;
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    #MenuVrGal ul li {
+        /* background-color: rgb(255, 255, 255); */
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        font-size: 18pt;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 100, 255);
+    }
+    
+    #MenuVrGal ul li:hover,
+    #MenuVrGal ul li:focus,
+    #MenuVrGal ul li:active {
+        margin-left: 5px;
+        transition: all 800ms;
+        border: 2px solid white;
+        background-color: white;
+        box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.37);
+    }
+    
+    #MenuVrGal ul li a i {
+        text-align: center;
+        color: rgb(0, 100, 255);
+    }
+
+    #NavHz ul {
+        float: right;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        padding: 0px;
+    }
+
+    #NavHz ul li {
+        float: left;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        /* padding-top: 20px; */
+        margin-left: 10px;
+        font-size: 52pt;
+    }
+
+    #bigLogo {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+    }
+
+    #searchBar form {
+        display: block;
+        margin-top: 20px;
+    }
+
+    #MenuVrOpener {
+        display: none;
+    }
+
+    #MenuVr h2 {
+        font-size: 27px;
+    }
+
+    #MenuVrGal {
+        background-color: transparent;
+        margin-top: 3px;
+    }
+    
+    #MenuVrGal ul {
+        list-style-type: none;
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    #MenuVrGal ul li {
+        /* background-color: rgb(255, 255, 255); */
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        font-size: 17pt;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 100, 255);
+    }
+    
+    #MenuVrGal ul li:hover,
+    #MenuVrGal ul li:focus,
+    #MenuVrGal ul li:active {
+        margin-left: 5px;
+        transition: all 800ms;
+        border: 2px solid white;
+        background-color: white;
+        box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.37);
+    }
+    
+    #MenuVrGal ul li a i {
+        text-align: center;
+        color: rgb(0, 100, 255);
+    }
+
+    #NavHz ul {
+        float: right;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        padding: 0px;
+    }
+
+    #NavHz ul li {
+        float: left;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        /* padding-top: 20px; */
+        margin-left: 10px;
+        font-size: 52pt;
+    }
+
+    #bigLogo {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+    }
+
+    #MenuVr {
+        display: block;
+    }
+
+    #MenuVrOpener {
+        display: none;
+    }
+
+    #MenuVr h2 {
+        font-size: 18px;
+    }
+
+    #MenuVrGal {
+        background-color: transparent;
+        margin-top: 3px;
+    }
+    
+    #MenuVrGal ul {
+        list-style-type: none;
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    #MenuVrGal ul li {
+        /* background-color: rgb(255, 255, 255); */
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        font-size: 15pt;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 100, 255);
+    }
+    
+    #MenuVrGal ul li:hover,
+    #MenuVrGal ul li:focus,
+    #MenuVrGal ul li:active {
+        transition: all 800ms;
+        border: 2px solid white;
+        background-color: white;
+        box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.37);
+    }
+    
+    #MenuVrGal ul li a i {
+        text-align: center;
+        color: rgb(0, 100, 255);
+    }
+
+    #NavHz ul {
+        float: right;
+        margin-bottom: 22px;
+        margin-top: 22px;
+        padding: 0px;
+    }
+
+    #NavHz ul li {
+        float: left;
+        font-size: 14pt;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        /* padding-top: 20px; */
+        margin-left: 10px;
+        font-size: 52pt;
+    }
+
+    #bigLogo {
+        display: block;
+        margin: 10px auto;
+        width: 100px;
+    }
+
+    #MenuVr h2 {
+        font-size: 24px;
+    }
+
+    #MenuVrGal {
+        display: none;
+        background-color: orange;
+        margin-top: 3px;
+    }
+    
+    #MenuVrGal ul {
+        list-style-type: none;
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    #MenuVrGal ul li {
+        /* background-color: rgb(255, 255, 255); */
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        font-size: 25pt;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 100, 255);
+    }
+    
+    #MenuVrGal ul li:hover,
+    #MenuVrGal ul li:focus,
+    #MenuVrGal ul li:active {
+        margin-left: 20px;
+        transition: all 800ms;
+        border: 2px solid white;
+        background-color: white;
+        box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.37);
+    }
+    
+    #MenuVrGal ul li a i {
+        text-align: center;
+        color: rgb(0, 100, 255);
+    }
+
+    #NavHz ul {
+        float: inline-start;
+        margin-bottom: 22px;
+        margin-top: 22px;
+        padding: 0px;
+    }
+
+    #NavHz ul li {
+        float: inline-start;
+        font-size: 14pt;
+        font-weight: bold;
+    }
+
+    #searchBar form {
+        display: block;
+        margin: 17px 0px;
+    }
+
+    #MenuVr {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h1 {
+        /* padding-top: 20px; */
+        margin-left: 10px;
+        font-size: 40pt;
+    }
+
+    #MenuVr h2 {
+        font-size: 24px;
+    }
+
+    #MenuVrGal {
+        display: none;
+        background-color: orange;
+        margin-top: 3px;
+    }
+    
+    #MenuVrGal ul {
+        list-style-type: none;
+        display: block;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    #MenuVrGal ul li {
+        /* background-color: rgb(255, 255, 255); */
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+        font-size: 25pt;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 100, 255);
+    }
+    
+    #MenuVrGal ul li:hover,
+    #MenuVrGal ul li:focus,
+    #MenuVrGal ul li:active {
+        margin-left: 20px;
+        transition: all 800ms;
+        border: 2px solid white;
+        background-color: white;
+        box-shadow: inset 5px 0px 10px rgba(0, 0, 0, 0.37);
+    }
+    
+    #MenuVrGal ul li a i {
+        text-align: center;
+        color: rgb(0, 100, 255);
+    }
+
+    #bigLogo {
+        display: block;
+        margin: 10px auto;
+        width: 100px;
+    }
+
+    #smallLogo {
+        display: none;
+    }
+
+    #NavHz ul {
+        margin-bottom: 22px;
+        margin-top: 22px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    #NavHz ul li {
+        font-size: 11pt;
+        font-weight: bold;
+    }
+
+    #searchBar form {
+        display: block;
+    }
+
+    #MenuVr {
+        display: none;
+    }
+
+    #MenuVrOpener {
+        display: none;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#MenuVrOpener {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    align-content: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.151);
+    font-weight: bold;
+    width: fit-content;
+    -webkit-text-stroke: 4px orange;
+}
+
+#bigLogo {
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.151);
+}
+
+#smallLogo {
+    width: 90px;
+    height: auto;
+}
+
+#navigationHorizontal {
+    box-shadow: 20px 0px 10px rgba(0, 0, 0, 0.322);
+}
+#NavHz ul {
+    list-style: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+/* #NavHz ul li {
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+} */
+
+#NavHz ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: padding 500ms;
+}
+
+#NavHz ul li a:hover,
+#NavHz ul li a:active,
+#NavHz ul li a:focus {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 10px;
+    transition: margin-left 800ms;
+    padding: 0px 10px;
+    /* padding: 10px; */
+    /* padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+    color: rgb(0, 0, 0);
+}
+
+#searchWrap {
+    position: relative;
+    display: inline;
+}
+
+#searchBar form div {
+    display: flex;
+    align-items: center;
+}
+
+#searchBar form div input {
+    border: 2px solid rgba(0, 0, 0, 0.733);
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 5px;
+}
+
+#searchBar form input:focus {
+    outline: none;
+}
+
+#searchBar form div button {
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+    padding: 8px;
+}
+
+#MenuVr {
+    /* margin-top: 75px; */
+    background-color: white;
+    margin-top: 3px;
+}
+
+#MenuVr h2 {
+    margin: 10px 0px 40px;
+    color: white;
+    background-color: rgb(0, 100, 255);
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px 20px;
+}
+
+#MenuVr ul {
+    list-style-type: none;
+    display: block;
+    padding: 0px;
+}
+
+#MenuVr ul li {
+    background-color: rgb(255, 255, 255);
+    margin-top: 2px;
+    padding-left: 4px;
+    font-size: 14pt;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#MenuVr ul li:hover,
+#MenuVr ul li:focus,
+#MenuVr ul li:active {
+    margin-left: 10px;
+    transition: margin-left 500ms;
+}
+
+#MenuVr ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    /* font-weight: bold; */
+}
+
+#MenuVr ul li a i {
+    float: left;
+    margin-right: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    left: 10px;
+    position: relative;
+}
+
+#body {
+    /* margin-top: 75px; */
+    margin-left: auto;
+    border: 3px solid orange;
+}
+
+#body ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#body h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px;
+    color: white;
+}
+
+#body a .card {
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    transition: padding 0.4s, background-color 0.3s;
+    height: fit-content;
+    margin-top: 5px;
+}
+
+@keyframes cardHover {
+    from {
+        border: 0px solid white;
+    }
+    to {
+        border: 6px solid white;
+    }
+}
+
+#body a .card:hover,
+#body a .card:focus,
+#body a .card:active {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 0px 5px 5px 5px #33333365;
+    background-color: orange;
+    animation-name: cardHover;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+#body ul li div div a {
+    text-decoration: none;
+}
+
+#body .card-body {
+    /* min-height: 150px; */
+    text-decoration: none;
+    height: fit-content;
+}
+
+#body .card-body img {
+    /* vertical-align: middle; */
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+}
+
+#sm10 p {
+    margin: 115px 0px;
+}
+
+#sm10 p a {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    position: relative;
+    top: 10px;
+    transition: padding 600ms;
+}
+
+#sm10 p a:hover,
+#sm10 p a:active,
+#sm10 p a:focus {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(219, 0, 0);
+    color: white;
+    border: 1px solid white;
+    padding: 35px 35px;
+    position: relative;
+    top: 10px;
+    box-shadow: 0px 5px 5px 5px #333333;
+}
+
+#ad ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#ad ul li a img {
+    width: 100%;
+    margin: 8px auto;
+}
+
+#footer {
+    background-color: #212121;
+    padding-top: 40px;
+}
+
+#ft-li {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#fl {
+    font-weight: bold;
+    /* padding-right: 80px;
+    padding-left: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#LoginContainer {
+    align-content: center;
+    background-color: #212121;
+    color: white;padding: 50px;
+    border-radius: 40px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 515px;
+}
+
+#email {
+    min-width: 400px;
+}
+
+#pwd {
+    min-width: 400px;
+}
+
+#formCheck {
+    margin-top: 30px;
+}
+
+#fPwd {
+    margin-top: 30px;
+}
+
+#submitBtn {
+    min-width: 350px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+#closeContainer {
+    text-decoration: none;
+    color: white;
+}
+
+#closeBtn {
+    min-width: 350px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+#signLog p {
+    color: white;
+}
+

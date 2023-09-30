@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/icon/icon/assets/css/all.css">
+    <link rel="stylesheet" href="bootstrap/icon/icon/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bootstrap/js/jquery-3.6.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="LoginContainer" class="container-fluid">
+        <div class="row">
+            <center>
+                <div class="col-lg-12">
+                    <h1>Login Form</h1>
+                    <p>Login here Using Email & Password</p>
+                    <hr color="grey" style="height: 2px;" />
+                    <form>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-user"></i><b> Email</b>
+                                <input type="email" class="form-control" placeholder="Enter email" id="email">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd"><i class="fas fa-key"></i><b> Password</b>
+                                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                            </label>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="form-check" id="formCheck">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="Remember Me">Remember Me
+                                    </label>
+                                </div>
+                            </div>
+                            <div id="fPwd" class="col-lg-7">
+                                <a href="#" style="text-decoration: none; ">Forgot password</a>
+                            </div>
+                        </div>
+                        <button type="submit" id="submitBtn" class="btn btn-success">Login</button>
+                        <a id="closeContainer" href="index.html"><button id="closeBtn" type="button" class="btn btn-danger">Close</button></a>
+                    </form>
+                </div>
+                <div id="signLog">
+                    <p>Or <a href="register.html">Sign up</a> via</p>
+                    <div class="row ">
+                        <div class="col-lg-4 ">
+                            <a href="http://www.gmail.com"><i class="fab fa-google"></i><br><center>Google</center></a>
+                        </div>
+                        <div class="col-lg-4 ">
+                            <a href="http://www.facebook.com"><i class="fab fa-facebook"></i><br><center>Facebook</center></a>
+                        </div>
+                        <div class="col-lg-4 " style="margin-bottom: 30px; ">
+                            <a href="http://www.twitter.com"><i class="fab fa-twitter"></i><br><center>Twitter</center></a>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </div>
+
+    
+</body>
+
+<script src="script/script.js"></script>
+
+</html>

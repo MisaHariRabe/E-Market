@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <button class="hide">Hide</button>
+    <button class="show">Show</button>
+    <button class="toggle">Toggle</button>
+    <p id="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusamus doloremque a nobis iusto minus, dolor esse consequuntur libero illum quo cumque explicabo assumenda eum repellendus numquam rerum nesciunt error.</p>
+    <p id="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam inventore accusamus provident numquam unde maiores id similique cum, consequuntur, ex quasi culpa exercitationem dolor consectetur excepturi fugiat odio ad voluptatem?</p>
+
+    <!-- Fonction : Hide, Show, Toggle -->
+    <script>
+        // Dès le chargement de cette page html, les événements suivants se produisent:
+       $(document).ready(function() {
+
+        // En cliquant sur le bouton Hide, le paragraphe disparaîtra
+        $(".hide").click(function(){
+            $("#text").hide();
+            $("#text1").hide(1000); // Paramètres : "slow", "fast", ou en millisecondes (1000).
+        });
+
+        // En cliquant sur le bouton Show, le paragraphe ré-apparaîtra
+        $(".show").click(function(){
+            $("#text").show();
+            $("#text1").show(500); // Paramètres : "slow", "fast", ou en millisecondes (500).
+        });
+           
+        // Entre : hide et show
+        $(".toggle").click(function(){
+            $("#text").toggle();
+            $("#text1").toggle("slow"); // Paramètres : "slow", "fast", ou en millisecondes.
+        });
+
+        // Autres fonctions: slideDown(), slideUp(), slideToggle()
+
+       });
+    </script>
+</body>
+</html>
